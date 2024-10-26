@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eignungsanalyse Wärmepumpe</title>
+</head>
+<body>
+    <h1>Eignungsanalyse: Ist eine Wärmepumpe für Sie geeignet?</h1>
+    
+    <!-- Frage 1 -->
+    <div>
+        <label for="frage1"><strong>1. Wie alt ist Ihr Gebäude?</strong></label>
+        <select id="frage1" name="alter_gebaeude">
+            <option value="vor_1978">Vor 1978</option>
+            <option value="1978_1994">1978-1994</option>
+            <option value="1995_2004">1995-2004</option>
+            <option value="nach_2004">Nach 2004</option>
+        </select>
+    </div>
+
+    <!-- Frage 2 -->
+    <div>
+        <label for="frage2"><strong>2. Ist Ihr Gebäude gedämmt?</strong></label>
+        <select id="frage2" name="daemmung">
+            <option value="ja">Ja</option>
+            <option value="nein">Nein</option>
+            <option value="teilweise">Teilweise</option>
+        </select>
+    </div>
+
+    <!-- Frage 3 -->
+    <div>
+        <label for="frage3"><strong>3. Welche Art der Heizung nutzen Sie derzeit?</strong></label>
+        <select id="frage3" name="heizart">
+            <option value="oel">Ölheizung</option>
+            <option value="gas">Gasheizung</option>
+            <option value="strom">Stromheizung</option>
+            <option value="fernwaerme">Fernwärme</option>
+            <option value="holz">Holzheizung</option>
+            <option value="keine">Keine</option>
+        </select>
+    </div>
+
+    <!-- Frage 4 -->
+    <div>
+        <label for="frage4"><strong>4. Haben Sie eine Fußbodenheizung?</strong></label>
+        <select id="frage4" name="fussbodenheizung">
+            <option value="ja">Ja</option>
+            <option value="nein">Nein</option>
+        </select>
+    </div>
+
+    <!-- Frage 5 -->
+    <div>
+        <label for="frage5"><strong>5. In welcher Region befindet sich Ihr Gebäude?</strong></label>
+        <select id="frage5" name="region">
+            <option value="nord">Norddeutschland</option>
+            <option value="sued">Süddeutschland</option>
+            <option value="ost">Ostdeutschland</option>
+            <option value="west">Westdeutschland</option>
+        </select>
+    </div>
+
+    <!-- Frage 6 -->
+    <div>
+        <label for="frage6"><strong>6. Wie viele Personen leben in Ihrem Haushalt?</strong></label>
+        <select id="frage6" name="haushaltsgroesse">
+            <option value="1">1 Person</option>
+            <option value="2">2 Personen</option>
+            <option value="3">3 Personen</option>
+            <option value="4">4 Personen</option>
+            <option value="5_plus">5 oder mehr Personen</option>
+        </select>
+    </div>
+
+    <!-- Frage 7 -->
+    <div>
+        <label for="frage7"><strong>7. Wie hoch ist Ihr jährlicher Heizöl- oder Gasverbrauch in kWh?</strong></label>
+        <select id="frage7" name="verbrauch">
+            <option value="unter_5000">Unter 5.000 kWh</option>
+            <option value="5000_15000">5.000 - 15.000 kWh</option>
+            <option value="ueber_15000">Über 15.000 kWh</option>
+        </select>
+    </div>
+
+    <!-- Frage 8 -->
+    <div>
+        <label for="frage8"><strong>8. Planen Sie größere Renovierungsarbeiten?</strong></label>
+        <select id="frage8" name="renovierung">
+            <option value="ja">Ja</option>
+            <option value="nein">Nein</option>
+        </select>
+    </div>
+
+    <!-- Frage 9 -->
+    <div>
+        <label for="frage9"><strong>9. Welche Heizungsart ziehen Sie für Ihre Renovierung in Betracht?</strong></label>
+        <select id="frage9" name="renovierung_heizung">
+            <option value="waermepumpe">Wärmepumpe</option>
+            <option value="gasheizung">Gasheizung</option>
+            <option value="oelheizung">Ölheizung</option>
+            <option value="fernwaerme">Fernwärme</option>
+            <option value="keine">Keine</option>
+        </select>
+    </div>
+
+    <!-- Frage 10 -->
+    <div>
+        <label for="frage10"><strong>10. Haben Sie einen Keller?</strong></label>
+        <select id="frage10" name="keller">
+            <option value="ja">Ja</option>
+            <option value="nein">Nein</option>
+        </select>
+    </div>
+
+    <button type="submit">Eignung analysieren</button>
+
+</body>
+</html>
